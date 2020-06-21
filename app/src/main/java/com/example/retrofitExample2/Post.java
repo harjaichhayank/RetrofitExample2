@@ -26,7 +26,7 @@ class Post {
     Integer getId() { return id; }
 
     private void setUserId(int userId) { this.userId = userId; }
-    public void setId(int id) { this.id = id; }
+    public void setId(Integer id) { this.id = id; }
     private void setTitle(String title) { this.title = title; }
     private void setText(String text) { this.text = text; }
 
